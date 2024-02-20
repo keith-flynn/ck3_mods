@@ -1,0 +1,121 @@
+﻿namespace = agot_loc_app
+
+agot_loc_app.0001 = {
+	title = agot_loc_app.0001.t
+	desc = agot_loc_app.0001.desc
+	theme = crown
+	left_portrait = {
+		character = root
+		animation = throne_room_conversation_3
+	}
+
+	immediate = {
+
+		create_character = {
+			location = root.capital_province
+			template = maester_character
+			save_scope_as = maester
+		}
+
+		create_character = {
+			age = { 18 30 }
+			random_culture = {
+				culture:essosi_valyrian = {
+					weight = 5
+				}
+				culture:volantene = {
+					weight = 5
+				}
+				culture:lyseni = {
+					weight = 5
+				}
+				culture:pentoshi = {
+					weight = 5
+				}
+				culture:myrish = {
+					weight = 5
+				}
+			}
+			gender = female
+			dynasty = none
+			random_traits = no
+			faith = faith:rhllor
+			fertility = 0
+			location = root.capital_province
+			random_traits = yes
+			trait = devoted
+			trait = fire_obsessed
+			random_traits_list = {
+				education_learning_1 = { weight = { base = 20 } }
+				education_learning_2 = { weight = { base = 20 } }
+				education_learning_3 = { weight = { base = 45 } }
+				education_learning_4 = { weight = { base = 15 } }
+			}
+			save_scope_as = red_priestess
+			after_creation = {
+				add_character_flag = portrait_kissed_by_fire
+				if = {
+					limit = { has_trait = dwarf }
+					remove_trait = dwarf
+				}
+				if = {
+					limit = { has_trait = clubfooted }
+					remove_trait = clubfooted
+				}
+			}
+
+		}
+
+	}
+
+	option = {
+		name = agot_loc_app.0001.a
+		trigger_event = agot_loc_app.0002
+	}
+	option = {
+		name = agot_loc_app.0001.b
+		trigger_event = agot_loc_app.0003
+	}
+}
+
+agot_loc_app.0002 = {
+	title = agot_loc_app.0002.t
+	desc = agot_loc_app.0002.desc
+	theme = crown
+	left_portrait = {
+		character = root
+		animation = throne_room_conversation_3
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = agot_loc_app.0002.a
+	}
+	option = {
+		name = agot_loc_app.0002.b
+	}
+}
+
+agot_loc_app.0003 = {
+	title = agot_loc_app.0003.t
+	desc = agot_loc_app.0003.desc
+	theme = crown
+	left_portrait = {
+		character = root
+		animation = throne_room_conversation_3
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = agot_loc_app.0003.a
+	}
+	option = {
+		name = agot_loc_app.0003.b
+	}
+}

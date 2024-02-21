@@ -16,3 +16,7 @@ Description: Provides syntax support for '.txt' and '.mod' files found in games 
 Version: 1.0.1
 Publisher: Adam Przybylski
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=adamprzybylski.paradox-syntax
+
+## Testing
+
+In console: `event [namespace].numeralID`

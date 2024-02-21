@@ -1,8 +1,8 @@
 ﻿l_english:
- agot_loc_app.0001.t:0 ""
- agot_loc_app.0001.desc:0 ""
- agot_loc_app.0001.a:0 ""
- agot_loc_app.0001.b:0 ""
+ agot_loc_app.0001.t:0 "Meeting with the Red Priestess"
+ agot_loc_app.0001.desc:0 "R'hollor's chosen enters the room. They smell of rich incense from the Free Cities, and firelight from the brazier seems to dance in their eyes as they meet your gaze.\n\n'The Lord of Light wishes you to be healed...' she declares in a demure tone. "
+ agot_loc_app.0001.a:0 "I will do what I must, for the night is dark and full of terrors."
+ agot_loc_app.0001.b:0 "bad_place, there must be another way..."
 
  agot_loc_app.0002.t:0 ""
  agot_loc_app.0002.desc:0 ""
@@ -14,3 +14,4 @@
  agot_loc_app.0003.a:0 ""
  agot_loc_app.0003.b:0 ""
 
+#the lord of light can perform many wonders. but needs a show of faith. 

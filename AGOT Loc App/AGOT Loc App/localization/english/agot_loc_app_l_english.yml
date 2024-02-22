@@ -1,17 +1,15 @@
 ﻿l_english:
  agot_loc_app.0001.t:0 "Meeting with the Red Priestess"
- agot_loc_app.0001.desc:0 "R'hollor's chosen enters the room. They smell of rich incense from the Free Cities, and firelight from the brazier seems to dance in their eyes as they meet your gaze.\n\n'The Lord of Light wishes you to be healed...' she declares in a demure tone. "
+ agot_loc_app.0001.desc:0 "R'hllor's chosen enters the room. [red_priestess.GetSheHe|U] smells of rich incense from the Free Cities, and firelight from the brazier seems to dance in [red_priestess.GetHerHim] eyes as [red_priestess.GetSheHe] meets your gaze.\n\n"The Lord of Light wishes you to be healed..." she declares in a demure tone.\n\n[red_priestess.GetSheHe|U] extends an arm from under [red_priestess.GetHerHim] robe, offering a dagger hilt-first.\n\n"But faith demands sacrifice. The fires demand blood.""
  agot_loc_app.0001.a:0 "I will do what I must, for the night is dark and full of terrors."
- agot_loc_app.0001.b:0 "bad_place, there must be another way..."
+ agot_loc_app.0001.b:0 "Seven Hells, there must be another way..."
 
- agot_loc_app.0002.t:0 ""
- agot_loc_app.0002.desc:0 ""
- agot_loc_app.0002.a:0 ""
- agot_loc_app.0002.b:0 ""
+ agot_loc_app.0002.t:0 "A Show of Dedication"
+ agot_loc_app.0002.desc:0 "I grasp the dagger as [red_priestess.GetFirstName] explains:\n\n"The Lord of Light can perform #italic many#! wonders, and blood is the key, my [ROOT.Char.GetLadyLord|U]. I have seen it in the flames."\n\n"If you truly seek R'hllor's healing flames, give blood to the fires.""
+ agot_loc_app.0002.a:0 "#P I drive the blade deep into my palm and slice.#"
+ agot_loc_app.0002.b:0 "#N A draft horse from the stables surely has enough blood.#"
 
- agot_loc_app.0003.t:0 ""
- agot_loc_app.0003.desc:0 ""
- agot_loc_app.0003.a:0 ""
- agot_loc_app.0003.b:0 ""
-
-#the lord of light can perform many wonders. but needs a show of faith. 
+ agot_loc_app.0003.t:0 "Cold Feet for the Lord of Light"
+ agot_loc_app.0003.desc:0 "I take a step back as [red_priestess.GetSheHe] presents the dagger.\n\n"This was a mistake.""
+ agot_loc_app.0003.a:0 ""Guards! Arrest this [red_priestess.GetWomanMan]!""
+ agot_loc_app.0003.b:0 "Make your leave. Nothing could be worth this."

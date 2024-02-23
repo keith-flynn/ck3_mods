@@ -1,8 +1,8 @@
 ﻿l_english:
  agot_loc_app.0001.t:0 "Meeting with the Red Priestess"
- agot_loc_app.0001.desc:0 "R'hllor's chosen enters the room. [red_priestess.GetSheHe|U] smells of rich incense from the Free Cities, and firelight from the brazier seems to dance in [red_priestess.GetHerHim] eyes as [red_priestess.GetSheHe] meets your gaze.\n\n"The Lord of Light wishes you to be healed..." she declares in a demure tone.\n\n[red_priestess.GetSheHe|U] extends an arm from under [red_priestess.GetHerHim] robe, offering a dagger hilt-first.\n\n"But faith demands sacrifice. The fires demand blood.""
+ agot_loc_app.0001.desc:0 "R'hllor's chosen enters the room. [red_priestess.GetSheHe|U] smells of rich incense from the Free Cities, and firelight from the brazier seems to dance in [red_priestess.GetHerHis] eyes as [red_priestess.GetSheHe] meets your gaze.\n\n"The Lord of Light wishes you to be healed..." she declares in a demure tone.\n\n[red_priestess.GetSheHe|U] extends an arm from under [red_priestess.GetHerHis] robe, offering a dagger hilt-first.\n\n"But faith demands sacrifice. The fires demand blood.""
  agot_loc_app.0001.a:0 "I will do what I must, for the night is dark and full of terrors."
- agot_loc_app.0001.b:0 "Seven Hells, there must be another way..."
+ agot_loc_app.0001.b:0 "[ROOT.Char.GetFaith.HighGodName], there must be another way..."
 
  agot_loc_app.0002.t:0 "A Show of Dedication"
  agot_loc_app.0002.desc:0 "I grasp the dagger as [red_priestess.GetFirstName] explains:\n\n"The Lord of Light can perform #italic many#! wonders, and blood is the key, my [ROOT.Char.GetLadyLord|U]. I have seen it in the flames."\n\n"If you truly seek R'hllor's healing flames, give blood to the fires.""

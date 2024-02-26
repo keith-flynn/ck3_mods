@@ -20,3 +20,7 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=adamprz
 ## Testing
 
 In console: `event [namespace].numeralID`
+
+## About
+
+This was originally going to be a place to work on localization events, but one of the first actions upon joing the team is signing an NDA to protect other contributors. This repo will likely become indefinitely dormant.
